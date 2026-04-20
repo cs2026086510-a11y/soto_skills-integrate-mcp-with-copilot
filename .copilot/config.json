@@ -1,0 +1,17 @@
+{
+  "mcp_servers": {
+    "mergington-activities": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "description": "MCP server for Mergington High School activities management",
+      "tools": [
+        "list_activities",
+        "get_activity_details",
+        "signup_for_activity",
+        "unregister_from_activity",
+        "get_activity_availability"
+      ]
+    }
+  },
+  "description": "Copilot MCP configuration for school activities system"
+}
